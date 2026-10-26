@@ -1,0 +1,57 @@
+/*SECCIÓN PRINCIPAL*/
+
+.specialties-section {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* IMAGEN DE FONDO */
+
+.specialties-background {
+    position: absolute;
+    inset: 0;
+
+    background-size: cover;
+    background-position: center;
+
+    z-index: 0;
+}
+
+/* CAPA SOBRE LA IMAGEN*/
+
+.specialties-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(46, 26, 20, 0.75);
+
+    z-index: 1;
+}
+
+/* IMÁGENES DE LAS ESPECIALIDADES */
+
+.specialty-image {
+    transition: transform 0.3s ease;
+}
+
+/* RESPONSIVE*/
+
+@media (max-width: 768px) {
+    .specialties-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .specialties-wave-top,
+    .specialties-wave-bottom {
+        height: 50px;
+    }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>La Mordida Divina</title>
+  <circle cx="256" cy="256" r="256" fill="#FDF8F0"/>
+  <circle cx="256" cy="256" r="242" fill="none" stroke="#8FD3DC" stroke-width="18"/>
+
+  <!-- Rodillo: azul medio, más suave que la v4 pero con contraste -->
+  <g transform="rotate(-12 256 310)" fill="#4BA9B8" stroke="#2F8797" stroke-width="8">
+    <rect x="68" y="296" width="100" height="48" rx="24"/>
+    <rect x="344" y="296" width="100" height="48" rx="24"/>
+    <rect x="116" y="268" width="280" height="104" rx="30"/>
+  </g>
+
+  <!-- Batidor -->
+  <g transform="rotate(30 256 256)" fill="none" stroke="#D6336C" stroke-width="16" stroke-linecap="round">
+    <ellipse cx="256" cy="172" rx="60" ry="108" fill="#FBD5DF"/>
+    <ellipse cx="256" cy="172" rx="28" ry="108"/>
+    <rect x="230" y="268" width="52" height="124" rx="26" fill="#F06A96"/>
+  </g>
+</svg>
