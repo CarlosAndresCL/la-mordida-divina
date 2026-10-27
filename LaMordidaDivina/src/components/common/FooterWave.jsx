@@ -8,7 +8,7 @@ export default function FooterWave({ fillClassName = "fill-teal-dark", height = 
     return (
         <div
             className="absolute left-0 w-full z-30 leading-none pointer-events-none"
-            style={{ top: -height }}
+            style={{ top: -(height - 1) }}
         >
             <svg
                 viewBox={`0 0 1200 ${height}`}

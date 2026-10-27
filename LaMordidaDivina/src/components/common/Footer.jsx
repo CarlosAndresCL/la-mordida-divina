@@ -8,11 +8,11 @@ export default function Footer() {
             <FooterWave fillClassName="fill-teal-dark" height={45} />
 
             {/* CONTENIDO PRINCIPAL */}
-            <div className="max-w-7xl mx-auto px-8 pt-14 pb-10">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-14 items-center">
+            <div className="max-w-7xl mx-auto px-6 md:px-8 pt-12 md:pt-14 pb-24 md:pb-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-14 items-center">
                     {/* MARCA */}
                     <div className="flex flex-col items-center md:items-center text-center">
-                        <div className="w-44 h-44 rounded-full overflow-hidden p-2 mb-5">
+                        <div className="w-32 h-32 md:w-44 md:h-44 rounded-full overflow-hidden p-2 mb-5">
                             <div className="w-full h-full rounded-full overflow-hidden">
                                 <img
                                     src={logo}
@@ -95,7 +95,7 @@ export default function Footer() {
                 </div>
 
                 {/* SEPARADOR */}
-                <div>
+                <div className="mt-10 pt-6 border-t border-cream/15">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                         <p className="font-body text-cream/60 text-sm md:text-base text-center md:text-left">
                             © {new Date().getFullYear()} La mordida divina. Todos los derechos

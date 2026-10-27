@@ -20,7 +20,7 @@ export default function Hero() {
     return (
         <section
             id="inicio"
-            className="relative min-h-[80vh] overflow-hidden flex items-center justify-center"
+            className="relative min-h-[65vh] md:min-h-[80vh] overflow-hidden flex items-center justify-center"
         >
             {/* FONDO */}
             <div className="absolute inset-0">
@@ -40,22 +40,28 @@ export default function Hero() {
             </div>
 
             {/* CONTENIDO CENTRAL */}
-            <div className="relative z-10 flex items-center justify-center w-full px-6 py-20">
+            <div className="relative z-10 flex items-center justify-center w-full px-5 py-10 md:px-6 md:py-20">
                 <div
                     className="
                         relative
                         w-full
-                        max-w-2xl
-                        min-h-105
+                        max-w-xs
+                        sm:max-w-xl
+                        md:max-w-2xl
+                        min-h-0
+                        sm:min-h-96
                         md:min-h-117.5
                         flex
                         flex-col
                         items-center
                         justify-center
                         text-center
-                        px-10
+                        px-8
+                        sm:px-14
                         md:px-20
-                        py-16
+                        py-10
+                        sm:py-14
+                        md:py-16
                         bg-cream/90
                         backdrop-blur-sm
                         shadow-xl
@@ -63,15 +69,15 @@ export default function Hero() {
                     "
                 >
                     {/* Decoración superior */}
-                    <div className="text-teal text-5xl mb-4">
+                    <div className="text-teal text-3xl md:text-5xl mb-2 md:mb-4">
                         <i className="fi fi-br-hat-chef text-teal-dark"></i>
                     </div>
 
-                    <h1 className="font-script text-6xl md:text-8xl text-teal-dark leading-tight mb-5">
+                    <h1 className="font-script text-5xl sm:text-6xl md:text-8xl text-teal-dark leading-tight mb-3 md:mb-5">
                         La mordida divina
                     </h1>
 
-                    <p className="font-body text-lg md:text-xl text-teal-dark/80 max-w-lg mb-8">
+                    <p className="font-body text-base md:text-xl text-teal-dark/80 max-w-lg mb-2 md:mb-8">
                         Pasteles hechos con amor, para momentos que merecen algo divino.
                     </p>
                 </div>
